@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>portfolio</title>				
+	
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+			
+		}
+		.sidebar{
+			
+			width: 22vw;
+			height: 100vh;
+			
+
+		}
+		.sidebar nav{
+			
+			padding: 32px;
+			background:lightblue;
+			height: 90.7%;
+			text-align: center;
+			
+
+		}
+		.sidebar nav li{
+
+			list-style:none;
+			font-style: bold;
+			font-size: 30px;
+			padding: 20px 0;
+		}
+		.main{
+
+
+			width:80vw;
+		}
+		.container{
+			
+			background: url(12.jpg);
+			background-repeat: no-repeat;
+			background-size: 150% 150%   ;
+			
+
+			display: flex;
+
+		} 
+		.infocontainer{
+			height: 88.4vh;
+			width: 70vw;
+			margin: auto;
+			margin-top: 144px;
+			display: flex;
+			justify-content: space-around;
+
+			
+		}
+		.davpic img{
+			width: 300px;
+			height: 60vh;
+			padding-left: 1px;
+			padding-top: 0px;
+			margin-left: 100px;
+			border:solid black 15px;
+
+
+		}
+		.davinfo{
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			font-family: sans-serif;
+
+
+		}
+		.hellow{
+			font-size: 70px;
+
+			font-family: sans-serif;
+
+		}
+		.name{
+			font-size: 30px;
+			font-weight: bold;
+
+		}
+		.about{
+			font-size: 17px;
+			font-family: sans-serif;
+			margin-top: 10px;
+
+		}
+		.buttons{
+			margin-top: 34px;
+			
+		}
+		.buttons button{
+			padding: 9px 14px;
+			border-radius: 22px;
+			color: blue;
+			font-weight: bold;
+			font-size: 21px;
+			margin: 0px 3px;
+			cursor: pointer;
+			
+		}
+		.buttons button:hover{
+			background: black;
+		}
+		.moreabout{
+			font-family: sans-serif;
+			margin-top: 23px;
+		}
+		.contactform{
+			font-family: sans-serif;
+			padding-top: 144px;
+			padding-left: 40px;
+		}
+		.contactform h1{
+			padding-bottom: 50px;
+			text-decoration: underline;
+
+			text-align: center;
+			font-family: sans-serif;
+		}
+		.bond{
+			padding-top: 5px;
+
+		}
+
+.bond td {
+    padding: 8px;
+}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+	<div class="sidebar">
+		<nav>
+			<ul>
+				<li><a href="portfolio.html">HOME</a></li>
+				<li><a href="intro.html">MY INTRO</a></li>
+				<li><a href="contact.html">CONTACT ME</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="main">
+		<div class="contactform">
+			<h1>FILL-THIS-FORM</h1>
+			<div class="bond">
+		<table>
+			<tr>
+				<td><lable>enter name</lable></td><td><input type="text" name="name" required placeholder="your name"/></td>
+			</tr>
+			<tr>
+			<td><lable>Client email</lable></td><td><input type="email" name="email" required placeholder disabled/>
+			</td></tr>
+		<tr>
+		<td><label>Phone-Number</label></td><td><input type="ps" name="pw"/></td></tr>
+
+	</tr>
+	<tr>
+		<td><label>country</label></td><td><select>
+			<option>paKISTAN</option>
+			<OPTION>america</OPTION>
+			<option>dubai</option></select></td></tr>
+			<tr>
+				<td><label>gender</label></td><td><input type="radio" name="gen"/>male</td><td><input type="radio" name="gen"/>female</td></tr>
+				<tr>
+					<td><lable>address</lable></td><td><input type="adress" name="add"/></td></tr>
+
+					<td><label>religion</label></td><td><input type="checkbox" name="religion/">islam<input type="checkbox" name="religion"/>christianity<input type="checkbox" name="religion/">hindusim</td></tr>
+					<tr> 
+						<td><label>date of birth</label></td><td><input type="date of birth" name="D.O.B" required placeholder="30.sep.2002"/></td></tr>
+					<tr>
+						<td><lable>N.I.C_NO</lable></td><td><input type="text" name="N.I.C_NO" required placeholder="nic_no"=/></td></tr>
+						<tr><td><input type="submit" name="submit" value="Submit"></td><td></td></tr></table></div>
+
+		
+			
+			
+			
+		</div>
+		
+	</div>
+	
+
+</div>
+	</div>
+
+</body>
+</html>
